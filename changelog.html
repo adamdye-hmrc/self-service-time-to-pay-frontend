@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Release Notes</title>
+        <meta name="description" content="Release Notes">
+        <meta name="viewport" content="width=device-width">
+        <style>
+			body {
+				font-family: 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, 'Lucida Grande', sans-serif;;
+				line-height: 1.5em;
+				color: #333;
+				background: #eee;
+			}
+			.container {
+				margin: 0 auto;
+				width: 800px;
+			}
+
+			.title {
+				text-align: center;
+				margin: 4em 0 4em 0;
+				background: #eee;
+			}
+			.title h1 {
+				font-size: 4.5em;
+				font-weight: bold;
+				margin-bottom: 0;
+				letter-spacing: -.05em;
+				margin-top: .3em;
+			}
+
+			.author {
+				color: #74BCBC;
+			}
+			.category {
+				margin: 2em 0;
+				overflow: auto;
+			}
+			.category h2 {
+				font-size: 1.4em;
+				margin-bottom: 0em;
+			}
+			.category .date {
+				font-size: .8em;
+				color: #666;
+			}
+			.category .commit {
+				margin-top: 0em;
+			}
+			.summary {
+				margin-bottom: 0;
+			}
+			.commit {
+				padding: 1px 1em;
+				color: white;
+				background: #333;
+				margin: 2em 0;
+			}
+			.commit h2 {
+				font-size: 1em;
+			}
+			.commit pre {
+				padding-left: 2em;
+			}
+        </style>
+    </head>
+    <body>
+    	<div class="container" role="main">
+    		<div class="header title">
+				<h1>Release Notes</h1>
+			</div>
+			<div class="category">
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Mon, 20 Mar 2017 13:54:07 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>further improved layout of spinner buttons</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Mon, 20 Mar 2017 12:16:28 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Increased space between account number and dd confirmation</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Mon, 20 Mar 2017 11:47:56 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Updated payment schedule tezt size and spacing for v5</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Mon, 20 Mar 2017 10:53:31 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Updated message text for direct debit schedule</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Mon, 20 Mar 2017 10:29:47 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Improved layout of calculator page</h2>
+						<pre>Added custom css to improve the layout of the data on the calculator page, so
+it isn&#39;t as widely spaced. Moved the breakdown section out of the grid layout
+subsection it was in so that it can expand across the width of the page.
+</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">colm.cavanagh</span>
+						committed on
+						<span class="date">Mon, 20 Mar 2017 10:17:03 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Changed account name box to match protoype</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Mon, 20 Mar 2017 09:58:38 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>updated auth calculator page to match v5 of prototype</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Fri, 17 Mar 2017 17:31:31 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Added custom css for + and - button layout</h2>
+						<pre>Custom css was required for the + and - buttons on the calculator in order to
+make them display correctly.
+</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Colm Cavanagh</span>
+						committed on
+						<span class="date">Fri, 17 Mar 2017 16:49:58 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>SSTTP-1150 and STTP-1154 (#221)</h2>
+						<pre>* Updated instalment summary page and deleted unused messages
+ Changed print button message to correct text
+
+* Updated html as per prototype for the application complete page
+ Updated instalment plan summary and removed section padding set to zero in css
+
+ Added in test for banner on application complete page
+ Added in custom css for gap in instalment summary
+ removed space between header and banner and changed message on application
+complete page
+
+* Updated feedback button text on application complete page
+
+* cleaned up imports in application_complete and instalment_plan_summary
+
+* removed unused button and fixed messages file
+
+* added in deleted message and moved hard coding style to css
+
+* Fixed direct debit message and removed redundant css
+</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Tebbs</span>
+						committed on
+						<span class="date">Fri, 17 Mar 2017 16:23:20 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>SSTTP 1313 - Upgrade to frontend bootstrap version (#230)</h2>
+						<pre>* SSTTP-1313 Update config for new version of bootstrap
+
+* SSTTP-1313 Bumped version up to apply fix to redirect
+</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Nick Karaolis</span>
+						committed on
+						<span class="date">Fri, 17 Mar 2017 16:22:42 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Added custom CSS class for the payment today form on the calculator page</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Colm Cavanagh</span>
+						committed on
+						<span class="date">Fri, 17 Mar 2017 16:15:08 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>SSTTP-1184 - Calculator input will be reset upon sign in (#229)</h2>
+						<pre>* Calculator input will be reset upon sign in
+
+* rewrote the session put to use flat map instead to avoid race conditions
+
+* Updated sessionCache put in submitAmountOwed to make sure future is completed
+before redirect
+
+* Changed format of methods and fixed broken test
+ calculator controller test was broken as a sessionCache.put was
+not being
+mocked. This didn&#39;t exist before due to a race condition,
+where the put was
+not being waited for before a redirect occurred.
+</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Fri, 17 Mar 2017 15:20:28 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Updated the layout of non-auth calculator page</h2>
+						<pre>Changed the layout of the non-auth calculator page to be a closer match to the
+v5 prototype. The +and - buttons still need a layout change and the initial
+payment input field needs to be repositioned.
+</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Colm Cavanagh</span>
+						committed on
+						<span class="date">Fri, 17 Mar 2017 13:59:15 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Colm/ssttp 1151/change enter your bank details page (#226)</h2>
+						<pre>* enter bank details page now visually matches prototype
+
+* Updated banking details with correct validation and visuals for sort code
+boxes
+
+* changed submit direct debit so correct values will be filled in when errors
+occur
+
+* Updated direct debit form so only one error message is shown
+</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Colm Cavanagh</span>
+						committed on
+						<span class="date">Thu, 16 Mar 2017 15:28:32 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>SSTTP-1145 Fixed incorrect routing for payment today (#227)</h2>
+						<pre>Back link on calculator page changes depending on initial payment
+ Removed unused schedule from pattern matching</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Colm Cavanagh</span>
+						committed on
+						<span class="date">Thu, 16 Mar 2017 14:46:33 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Application complete print button message updated</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Tue, 14 Mar 2017 10:10:27 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>SSTTP-1149 remove redundant misalignment bullet point messages</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Luke Smith</span>
+						committed on
+						<span class="date">Tue, 14 Mar 2017 09:57:15 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>SSTTP-1153 - Update direct debit confirmation page to match v5 of the prototype (#224)</h2>
+						<pre>Added custom css to remove the massive spacing added when using assets frontend
+grid layout.
+Edited in-page header to be h2 rather than h3
+Increased the text
+size of bank and payment plan details, whilst making direct debit
+information
+smaller</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Nick Karaolis</span>
+						committed on
+						<span class="date">Mon, 13 Mar 2017 15:42:33 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Reformatted case statement in call us method to be more concise</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Nick Karaolis</span>
+						committed on
+						<span class="date">Mon, 13 Mar 2017 15:21:28 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Removed parentheses from the call us method Added loggedIn parameter for first case in call us method</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Nick Karaolis</span>
+						committed on
+						<span class="date">Mon, 13 Mar 2017 15:15:41 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Updated the call us page to use the phone number based on different scenarios outlined in SSTTP-1146. Changed the you need to file phone number to meet new requirements.</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Colm Cavanagh</span>
+						committed on
+						<span class="date">Mon, 13 Mar 2017 08:57:54 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Colm/ssttp-1152/bank not found page remove (#222)</h2>
+						<pre>* Removed bank details error page and updated error messages for direct debit
+form
+
+* Fixed form so it will repopulate fields when a bank not found error occurs
+
+* removed method banksListValidated
+
+* removed unused method ValidateOrRetrieveAccounts and removed tests with it</pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">colm.cavanagh</span>
+						committed on
+						<span class="date">Fri, 10 Mar 2017 12:06:03 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Added in extra &#39; in isn&#39;t</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">colm.cavanagh</span>
+						committed on
+						<span class="date">Fri, 10 Mar 2017 09:46:27 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Added in &#39; to messages removed accidental dublication</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Nick Karaolis</span>
+						committed on
+						<span class="date">Fri, 10 Mar 2017 08:45:17 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>SSTTP-1147: Updated heading css to add margin at top of headers for better spacing. Updated headers on what you owe date and amount pages</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">colm.cavanagh</span>
+						committed on
+						<span class="date">Thu, 9 Mar 2017 17:06:22 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Removed unused messages</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">colm.cavanagh</span>
+						committed on
+						<span class="date">Thu, 9 Mar 2017 16:44:55 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Updated misalignment page as per prototype</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">Colm Cavanagh</span>
+						committed on
+						<span class="date">Thu, 9 Mar 2017 15:19:15 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>Change account number text input size (#218)</h2>
+						<pre></pre>
+					</div>
+				
+					<p class="summary">
+						<span class="author">colm.cavanagh</span>
+						committed on
+						<span class="date">Thu, 9 Mar 2017 14:59:41 +0000</span>
+					</p>
+
+					<div class="commit">
+						<h2>removed now from how much can you afford to pay</h2>
+						<pre></pre>
+					</div>
+				
+			</div>
+		</div>
+    </body>
+</html>
+
